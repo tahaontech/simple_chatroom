@@ -82,8 +82,21 @@ a {
 	margin-bottom: 15px;
 }
 
-.chat-sidebar ul li {
+.chat-sidebar ul li button {
 	padding: 10px 0;
+}
+
+.chat-sidebar button {
+	background: rgba(0, 0, 0, 0.1);
+	margin-top: 4px;
+	width: 100%;
+	color: #fff;
+	font-size: medium;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.chat-sidebar button:disabled {
+	color: #abadbd;
 }
 
 .chat-messages {
